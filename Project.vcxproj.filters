@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\custom\cpu-new-forward.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\m1.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\m2.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\m3.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\custom\cpu-new-forward.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\custom\gpu-new-forward.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\custom\optimization\register.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\custom\optimization\tensor.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\custom\optimization\streams.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\custom\optimization\separate.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\rai_build.yml">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\README.md">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1987c7be-72c5-43a1-bf00-a3641e614ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Optimizations">
+      <UniqueIdentifier>{b7e4bdc4-f2cb-4c95-afd2-703897a39ec5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Source\custom\new-forward.cu">
+      <Filter>Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Source\custom\optimization\baseline.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Source\custom\optimization\unroll.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Source\custom\optimization\implicit.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Source\custom\optimization\fp16.cuh">
+      <Filter>Source\Optimizations</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
